@@ -33,6 +33,8 @@ header a {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 
 .cta {
