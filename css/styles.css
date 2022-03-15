@@ -10,7 +10,8 @@ body {
 h1,
 h2,
 .logo {
-  font-family: "Boots And Spurs", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Boots And Spurs", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
 }
 
 .product-list h2 {
@@ -27,16 +28,30 @@ header a {
   color: #fff;
 }
 
+.section-hero {
+  background-image: url(../images/home-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
 .cta {
   background-color: #bb0000;
   color: #fff;
   font-size: 1.5em;
 }
 
+.img-home-info {
+  border-radius: 3rem;
+}
+
 .reviews {
   background-color: #e8e8e8;
 }
 
+.img-rewiew {
+  border-radius: 50%;
+}
 .featured--products {
   background-color: #fbfbfb;
 }
